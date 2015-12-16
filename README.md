@@ -1,4 +1,4 @@
-# PostCSS Json Scss Import [![Build Status][ci-img]][ci]
+# PostCSS JSON SCSS Import [![Build Status][ci-img]][ci]
 
 [PostCSS] plugin to import JSON into SCSS.
 
@@ -16,10 +16,9 @@ SCSS
 ```scss
 @import 'test.json';
 .foo { }
-}
 ```
 
-JSON
+`test.json`
 ```JSON
 {
   "white": "#fff",
@@ -44,7 +43,6 @@ $profiles: (
   github: #4183c4
 );
 .foo { }
-}
 ```
 
 ## Usage
