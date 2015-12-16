@@ -1,0 +1,9 @@
+{
+  "white": "#fff",
+  "black": "#000",
+  "profiles": {
+    "facebook": "#3b5998",
+    "flickr": "#0063db",
+    "github": "#4183c4"
+  }
+}

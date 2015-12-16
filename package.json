@@ -1,0 +1,31 @@
+{
+  "name": "postcss-json-scss-import",
+  "version": "0.0.0",
+  "description": "PostCSS plugin to import JSON into SCSS",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "scss",
+    "json",
+    "import"
+  ],
+  "author": "Markus Hsi-Yang Fritz <markus.h.y.fritz@gmail.com>",
+  "license": "MIT",
+  "repository": "mhyfritz/postcss-json-scss-import",
+  "bugs": {
+    "url": "https://github.com/mhyfritz/postcss-json-scss-import/issues"
+  },
+  "homepage": "https://github.com/mhyfritz/postcss-json-scss-import",
+  "dependencies": {
+    "postcss": "^5.0.10"
+  },
+  "devDependencies": {
+    "ava": "^0.7.0",
+    "eslint": "^1.10.2"
+  },
+  "scripts": {
+    "test": "npm run eslint && ava test/*.js",
+    "eslint": "eslint *.js test/*.js"
+  }
+}
