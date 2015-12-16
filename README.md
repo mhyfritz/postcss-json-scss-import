@@ -12,13 +12,13 @@ WORK IN PROGRESS
 
 ### Input
 
-SCSS
+SCSS:
 ```scss
 @import 'test.json';
 .foo { }
 ```
 
-`test.json`
+test.json:
 ```JSON
 {
   "white": "#fff",
@@ -33,7 +33,7 @@ SCSS
 
 ### Output
 
-SCSS
+SCSS:
 ```scss
 $white: #fff;
 $black: #000;
